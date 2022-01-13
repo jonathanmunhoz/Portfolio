@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta tags Obrigatórias -->
+		<meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Estilo CSS -->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Fontawesome CSS -->
+		<script src="https://kit.fontawesome.com/6a381bb437.js" crossorigin="anonymous"></script>
+
+	<title>Portifólio - Jonathan</title>
+</head>
+<body>
+
+	<section id="cabecalho">
+		<header> <!-- inicio cabeçalho -->
+			<nav class="navbar navbar-expand-sm navbar-dark">
+	        <div class="container">
+	        	<h1 class="titulo1"><a href="index.html" class="nav-link btn btn-outline-secondary">Front End Developer</a></h1>
+
+	        	<script>
+	        		function typeWrite(elemento) {
+	        			const textoArray = elemento.innerHTML.split('');
+	        			elemento.innerHTML = '';
+	        			textoArray.forEach((letra, i) => {
+	        				setTimeout(() =>
+	        					elemento.innerHTML += letra, 140 * i);
+	        			});
+	        		}
+
+							const titulo = document.querySelector('a');
+							typeWrite(titulo);
+						</script>
+
+
+					<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+	            <span class="navbar-toggler-icon"></span>
+	        </button>
+
+	          <div class="collapse navbar-collapse" id="nav-principal">
+	            <ul class="navbar-nav ml-auto">
+	              <li class="nav-item">
+	                <a href="index.html" class="nav-link btn btn-outline-secondary">Home</a>
+	              </li>
+	              <li class="nav-item">
+	                <a href="sobre.html" class="nav-link btn btn-outline-secondary">Sobre</a>
+	              </li>
+	              <li class="nav-item">
+	                <a href="#" class="nav-link btn btn-outline-secondary btn-secondary active">Redes Sociais</a>
+	              </li>
+	            </ul>  
+	          </div>
+	      </div>
+	  	</nav>
+		</header> <!-- fim cabecalho -->
+	</section>
+
+<section id="home"> <!-- inicio seção home -->
+	<div id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<p class="text-justify">
+						Redes sociais: 
+					</p>
+				</div>
+
+				<div class="col-md-5 mt-1">
+					<a href="https://api.whatsapp.com/send?phone=5511966131055" class="btn btn-outline-secondary">
+						<i class="fab fa-whatsapp-square fa-lg"></i>
+					</a>
+						
+
+					<a href="https://github.com/jonathanmunhoz" class="btn btn-outline-secondary">
+						<i class="fab fa-github-square fa-lg"></i>
+					</a>
+
+					<a href="https://www.linkedin.com/in/jonathan-munhoz-aa5670163/" class="btn btn-outline-secondary ">
+						<i class="fab fa-linkedin fa-lg"></i>
+					</a>
+
+					<a href="https://www.facebook.com/profile.php?id=100011417015727" class="btn btn-outline-secondary">
+						<i class="fab fa-facebook-square fa-lg "></i>
+					</a>
+
+				</div>
+			</div>				
+		</div>
+	</div>
+</section>
+
+
+	<section id="final">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 mt-2">
+					<p>Creator: Jonathan Munhoz Brito | Português (Brasil)</p>
+				</div>
+
+				<div class="col-md-2 mt-2">
+						<p class="redesSociais">Redes sociais: </p>
+				</div>
+
+				<div class="col-md-3 mt-2">
+					<a href="https://api.whatsapp.com/send?phone=5511966131055" class="btn btn-outline-secondary">
+						<i class="fab fa-whatsapp-square fa-lg"></i>
+					</a>
+
+					<a href="https://github.com/jonathanmunhoz" class="btn btn-outline-secondary">
+						<i class="fab fa-github-square fa-lg"></i>
+					</a>
+				
+
+					<a href="https://www.instagram.com/jonathanmunhozb/" class="btn btn-outline-secondary">
+						<i class="fab fa-instagram-square fa-lg"></i>
+					</a>
+
+					<a href="https://www.facebook.com/profile.php?id=100011417015727" class="btn btn-outline-secondary">
+						<i class="fab fa-facebook fa-lg"></i>
+					</a>
+
+				</div>
+			</div>				
+		</div>
+	</section>
+
+	<!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

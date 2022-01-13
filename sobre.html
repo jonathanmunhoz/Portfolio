@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta tags Obrigatórias -->
+		<meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Estilo CSS -->
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- Fontawesome CSS -->
+		<script src="https://kit.fontawesome.com/6a381bb437.js" crossorigin="anonymous"></script>
+
+	<title>Portifólio - Jonathan</title>
+</head>
+<body>
+
+	<section id="cabecalho">
+		<header> <!-- inicio cabeçalho -->
+			<nav class="navbar navbar-expand-sm navbar-dark">
+	        <div class="container">
+	        	<h1 class="titulo1"><a href="index.html" class="nav-link btn btn-outline-secondary">Front End Developer</a></h1>
+
+	        	<script>
+	        		function typeWrite(elemento) {
+	        			const textoArray = elemento.innerHTML.split('');
+	        			elemento.innerHTML = '';
+	        			textoArray.forEach((letra, i) => {
+	        				setTimeout(() =>
+	        					elemento.innerHTML += letra, 140 * i);
+	        			});
+	        		}
+
+							const titulo = document.querySelector('a');
+							typeWrite(titulo);
+						</script>
+
+
+					<button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+	            <span class="navbar-toggler-icon"></span>
+	        </button>
+
+	          <div class="collapse navbar-collapse" id="nav-principal">
+	            <ul class="navbar-nav ml-auto">
+	              <li class="nav-item">
+	                <a href="index.html" class="nav-link btn btn-outline-secondary">Home</a>
+	              </li>
+	              <li class="nav-item">
+	                <a href="sobre.html" class="nav-link btn btn-outline-secondary btn-secondary active">Sobre</a>
+	              </li>
+	              <li class="nav-item">
+	                <a href="redesSociais.html" class="nav-link btn btn-outline-secondary">Redes Sociais</a>
+	              </li>
+	            </ul>  
+	          </div>
+	      </div>
+	  	</nav>
+		</header> <!-- fim cabecalho -->
+	</section>
+
+	<section id="home"> <!-- inicio seção home -->
+		<div id="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<p class="text-justify">
+						
+						
+						Meu nome é Jonathan Munhoz Brito, sou formado em Análise e Desenvolvimento de Sistemas desde Dezembro de 2020.
+						<br><br>
+						Atualmente minhas experiências com desenvolvimento Front-End são apenas com projetos próprios. Estou no aguardo de meu primeiro emprego como Desenvolvedor.
+						<br><br>
+						Possuo boas experiências com HTML, CSS, Bootstrap & JavaScript. Procuro sempre participar de Bootcamps para adquirir novas experiências e me aperfeiçoar cada vez mais.
+						<br><br>
+						Também possuo pequenos projetos que foram realizados durante o percurso de minha faculdade, com linguagens como: C, C#, Java & Banco de Dados MySQL.
+
+					</p>
+				</div>
+	
+
+				<!-- <section id="imagens"> -->
+					<div class="row">
+							<div class="col-md-2">
+								
+								<i class="fab fa-html5 display-3 mt-2 edicaoImagem"></i>
+
+									<div class="w-100"></div>
+
+								<i class="fab fa-css3-alt display-3 mt-4 edicaoImagem1"></i>
+										
+									<div class="w-100"></div>
+
+								<i class="fab fa-bootstrap display-3 mt-4 edicaoImagem2"></i>
+
+										<div class="w-100"></div>
+
+								<i class="fab fa-js-square display-3 mt-4 edicaoImagem3"></i>
+								
+							</div>
+					</div>
+				<!-- </section> -->
+
+							<!-- <section> -->
+							<div class="row">
+								<div class="col-md-2">
+
+									<p class="textoAlternado">
+										HTML
+									</p>
+
+									<script>
+										function typeWrite(elemento) {
+											const textoArray1 = elemento.innerHTML.split('');
+											elemento.innerHTML = '';
+											textoArray1.forEach((letra, i) => {
+												setTimeout(() =>
+													elemento.innerHTML += letra, 105 * i)
+											})
+										}
+
+										const titulo1 = document.querySelector('.textoAlternado');
+										typeWrite(titulo1);
+									</script>
+
+									
+
+									<p class="textoAlternado2">
+										CSS
+									</p>
+
+									<script>
+										function typeWrite(elemento) {
+											const textoArray2 = elemento.innerHTML.split('');
+											elemento.innerHTML = '';
+											textoArray2.forEach((letra, i) => {
+												setTimeout(() =>
+													elemento.innerHTML += letra, 165 * i)
+											})
+										}
+
+										const titulo2 = document.querySelector('.textoAlternado2');
+										typeWrite(titulo2);
+									</script>
+
+
+									<p class="textoAlternado3">
+										Bootstrap
+									</p>
+
+									<script>
+										function typeWrite(elemento) {
+											const textoArray3 = elemento.innerHTML.split('');
+											elemento.innerHTML = '';
+											textoArray3.forEach((letra, i) => {
+												setTimeout(() =>
+													elemento.innerHTML += letra, 245 * i)
+											})
+										}
+
+										const titulo3 = document.querySelector('.textoAlternado3');
+										typeWrite(titulo3);
+									</script>
+
+									<p class="textoAlternado4">
+										JavaScript
+									</p>
+
+									<script>
+										function typeWrite(elemento) {
+											const textoArray4 = elemento.innerHTML.split('');
+											elemento.innerHTML = '';
+											textoArray4.forEach((letra, i) => {
+												setTimeout(() =>
+													elemento.innerHTML += letra, 315 * i)
+											})
+										}
+
+										const titulo4 = document.querySelector('.textoAlternado4');
+										typeWrite(titulo4);
+									</script>
+								</div>
+							</div> 
+							<!-- </section> --> 
+							
+			</div>
+		</div>
+		</div>
+
+	</section>
+
+
+<footer>
+	<section id="final">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 mt-2">
+					<p>Creator: Jonathan Munhoz Brito | Português (Brasil)</p>
+				</div>
+
+				<div class="col-md-2 mt-2">
+						<p class="redesSociais">Redes sociais: </p>
+				</div>
+
+				<div class="col-md-3 mt-2">
+					<a href="https://api.whatsapp.com/send?phone=5511966131055" class="btn btn-outline-secondary">
+						<i class="fab fa-whatsapp-square fa-lg"></i>
+					</a>
+
+					<a href="https://github.com/jonathanmunhoz" class="btn btn-outline-secondary">
+						<i class="fab fa-github-square fa-lg"></i>
+					</a>
+				
+
+					<a href="https://www.linkedin.com/in/jonathan-munhoz-aa5670163/" class="btn btn-outline-secondary ">
+						<i class="fab fa-linkedin fa-lg"></i>
+					</a>
+
+					<a href="https://www.facebook.com/profile.php?id=100011417015727" class="btn btn-outline-secondary">
+						<i class="fab fa-facebook-square fa-lg"></i>
+					</a>
+
+				</div>
+			</div>				
+		</div>
+	</section>
+</footer>
+
+	<!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
